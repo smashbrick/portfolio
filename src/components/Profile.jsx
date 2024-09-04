@@ -1,8 +1,11 @@
 function Profile() {
 	return (
-		<main className="block md:flex items-center justify-center gap-20 h-[88vh] p-20">
-			<div className="sm:w-[400px] w-[300px] border-b-4 border-black m-auto md:m-0 avatar-class">
-				<img src="src/assets/avatar.png" alt="" />
+		<main className="block md:flex items-center justify-center gap-20 md:h-[88vh] h-[94vh] p-10">
+			<div className="sm:w-[400px] w-[300px] m-auto md:m-0 avatar-class relative">
+				<img src="src/assets/avatar.png" alt="Avatar image of author" />
+				<div className="absolute z-[-1] top-[10%]">
+					<img src="src/assets/blob.gif" alt="Just a blob icon" />
+				</div>
 			</div>
 			<div className="text-center flex flex-col gap-4 mt-[60px]">
 				<p className="text-secondaryBlack font-semibold text-2xl">
@@ -15,7 +18,8 @@ function Profile() {
 				<div className="flex justify-center gap-4">
 					<button
 						className=" p-4 rounded-[30px] text-1xl border-2 border-black
-            font-semibold
+            font-semibold 
+						btn-download
 
           "
 					>
@@ -23,9 +27,9 @@ function Profile() {
 					</button>
 					<button
 						className=" p-4 rounded-[30px] text-1xl border-2 border-black font-semibold  bg-black
-            text-white"
+            text-white btn-contact"
 					>
-						Contact me !
+						Contact me
 					</button>
 				</div>
 				<div className="flex justify-center gap-8">

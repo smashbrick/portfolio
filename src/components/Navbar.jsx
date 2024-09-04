@@ -21,7 +21,8 @@ function Navbar() {
       justify-center
       p-5
       text-2xl
-			h-[12vh]
+			md:h-[12vh]
+			h-[6]
 			items-center
       "
 			>
@@ -30,7 +31,7 @@ function Navbar() {
 						About
 					</a>
 					<a className="nav-links" href="#">
-						Experience
+						Skills
 					</a>
 					<a className="nav-links" href="#">
 						Projects
@@ -41,7 +42,7 @@ function Navbar() {
 				</nav>
 			</header>
 			{/* //Mobile version */}
-			<header className="md:hidden shadow p-3 ">
+			<header className="md:hidden shadow p-3 min-h-[6vh] ">
 				<div
 					className="
 						cursor-pointer flex justify-end "

@@ -4,6 +4,7 @@
 
 * {
 	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
 }
 
 html,
@@ -24,7 +25,7 @@ a {
 
 .nav-links::after {
 	content: "";
-	background-color: black;
+	background-color: #4dabf7;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -33,28 +34,32 @@ a {
 	transition: 0.3s;
 }
 
+/* Can't decide if nav bar should be blue on hover  */
+/* 
 .nav-links:hover,
 .nav-links:focus {
 	@apply text-secondaryBlack;
-}
+	@apply text-primaryBlue;
+} */
 
 .nav-links:hover::after,
 .nav-links:focus::after {
-	background-color: theme("colors.secondaryBlack");
+	background-color: theme("colors.primaryBlue");
 	width: 100%;
 }
 
 .avatar-class {
 	position: relative;
+	border-bottom: 4px solid black;
 }
-.avatar-class::after {
+/* .avatar-class::after {
 	content: "";
 	display: block;
 	position: absolute;
 	bottom: -25px;
 	left: 50%;
-	width: 85%;
+	width: 65%;
 	height: 4px;
 	background-color: black;
 	transform: translateX(-50%);
-}
+} */
