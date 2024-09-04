@@ -8,7 +8,7 @@ function Profile() {
 				</div>
 			</div>
 			<div className="text-center flex flex-col gap-4 mt-[60px]">
-				<p className="text-secondaryBlack font-semibold text-2xl">
+				<p className="text-secondaryBlack font-semibold text-xl">
 					Hello I&apos;m
 				</p>
 				<h1 className="text-5xl font-bold whitespace-nowrap ">Ankith Swaraj</h1>

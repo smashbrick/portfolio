@@ -15,7 +15,6 @@ function Navbar() {
 		<>
 			<header
 				className="
-      shadow
       hidden
       md:flex 
       justify-center
@@ -27,22 +26,22 @@ function Navbar() {
       "
 			>
 				<nav className="flex gap-20">
-					<a className="nav-links" href="#">
+					<a className="nav-links" href="#about">
 						About
 					</a>
-					<a className="nav-links" href="#">
+					<a className="nav-links" href="#skills">
 						Skills
 					</a>
-					<a className="nav-links" href="#">
+					<a className="nav-links" href="#projects">
 						Projects
 					</a>
-					<a className="nav-links" href="#">
+					<a className="nav-links" href="#contact">
 						Contact
 					</a>
 				</nav>
 			</header>
 			{/* //Mobile version */}
-			<header className="md:hidden shadow p-3 min-h-[6vh] ">
+			<header className="md:hidden shadow-light p-3 min-h-[6vh] ">
 				<div
 					className="
 						cursor-pointer flex justify-end "
@@ -52,7 +51,9 @@ function Navbar() {
 							toggleMenu();
 						}}
 					>
-						<div className="shadow">{isOpen ? <Close /> : <Hamburger />}</div>
+						<div className="shadow-custom">
+							{isOpen ? <Close /> : <Hamburger />}
+						</div>
 					</div>
 				</div>
 
@@ -62,10 +63,10 @@ function Navbar() {
 					}`}
 				>
 					<nav className="flex flex-col gap-4">
-						<a href="#">About</a>
-						<a href="#">Experience</a>
-						<a href="#">Projects</a>
-						<a href="#">Contact</a>
+						<a href="#about">About</a>
+						<a href="#skills">Skills</a>
+						<a href="#projects">Projects</a>
+						<a href="#contact">Contact</a>
 					</nav>
 				</div>
 			</header>

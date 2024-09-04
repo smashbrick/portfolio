@@ -2,9 +2,9 @@
 
 function Section(props) {
 	console.log(props);
-	const { sectionText, sectionTitle, children } = props;
+	const { sectionText, sectionTitle, children, id } = props;
 	return (
-		<section className="">
+		<section id={id}>
 			<div className="h-[12vh] flex flex-col items-center justify-center shadow gap-2">
 				<p
 					className="

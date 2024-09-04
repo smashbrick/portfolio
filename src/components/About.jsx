@@ -2,7 +2,7 @@ import Section from "./Section";
 
 function About() {
 	return (
-		<Section sectionText="Get to know more" sectionTitle="About Me" section>
+		<Section sectionText="Get to know more" sectionTitle="About Me" id="about">
 			<div className="md:grid grid-cols-[1fr_2fr] items-center h-[88vh] p-10 block gap-5 ">
 				<div
 					className="sm:w-[350px] w-[300px] lg:w-[400px] m-auto  relative 
@@ -19,7 +19,7 @@ function About() {
 				</div>
 				<div className="lg:px-[50px]">
 					<div className="flex  justify-center md:gap-50 gap-8 text-center mt-[40px] md:mt-0">
-						<div className="border border-black p-6 rounded-3xl flex-1">
+						<div className="border border-black  p-6 rounded-3xl flex-1">
 							<img
 								src="src/assets/experience.png"
 								alt="Experience icon"
@@ -44,11 +44,11 @@ function About() {
 							</p>
 						</div>
 					</div>
-					<p className="text-center mt-[50px] text-lg ">
-						I&apos;m Ankith Swaraj and welcome to my corner of the web! <br />{" "}
-						I&apos;m all about keeping things simple and clean, whether
-						it&apos;s in design, code, or everyday life. I love taking on new
-						challenges and exploring the latest in tech.
+					<p className="text-center mt-[50px] text-lg mb-[50px]">
+						welcome to my corner of the web! <br /> I&apos;m all about keeping
+						things simple and clean, whether it&apos;s in design, code, or
+						everyday life. I love taking on new challenges and exploring the
+						latest in tech.
 					</p>
 				</div>
 			</div>
