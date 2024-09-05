@@ -9,19 +9,16 @@ function About() {
         avatar-class
         "
 				>
-					<img
-						src="src/assets/avatartion-about.png"
-						alt="Avatar image of author"
-					/>
+					<img src="public/avatartion-about.png" alt="Avatar image of author" />
 					<div className="absolute z-[-1] top-[10%]">
-						<img src="src/assets/blob.gif" alt="Just a blob icon" />
+						<img src="public/blob.gif" alt="Just a blob icon" />
 					</div>
 				</div>
 				<div className="lg:px-[50px]">
 					<div className="flex  justify-center md:gap-50 gap-8 text-center mt-[40px] md:mt-0">
 						<div className="border border-black  p-6 rounded-3xl flex-1">
 							<img
-								src="src/assets/experience.png"
+								src="public/experience.png"
 								alt="Experience icon"
 								className="w-[2rem] m-auto"
 							/>
@@ -32,7 +29,7 @@ function About() {
 						</div>
 						<div className="border border-black flex flex-col p-6 rounded-3xl flex-1">
 							<img
-								src="src/assets/education.png"
+								src="public/education.png"
 								alt="Education icon "
 								className="w-[2rem] m-auto"
 							/>
