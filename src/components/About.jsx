@@ -21,7 +21,7 @@ const aboutData = {
 const InfoCard = ({ icon, title, details, subtext }) => (
 	<div className="shadow-dark p-6 rounded-3xl flex-1 flex flex-col items-center">
 		<img src={icon} alt={`${title} icon`} className="w-[2rem] mb-4" />
-		<h3 className="text-2xl font-bold">{title}</h3>
+		<h3 className="text-xl font-bold">{title}</h3>
 		<p className="text-lg text-center">
 			{details} <br /> {subtext}
 		</p>
@@ -39,7 +39,7 @@ function About() {
 					</div>
 				</div>
 				<div className="lg:px-[50px]">
-					<div className="flex justify-center md:gap-50 gap-8 text-center mt-[40px] md:mt-0 md:px-12">
+					<div className="flex justify-center md:gap-50 gap-8 text-center mt-[40px] md:mt-0 md:px-24">
 						<InfoCard
 							icon={aboutData.experience.icon}
 							title={aboutData.experience.title}
