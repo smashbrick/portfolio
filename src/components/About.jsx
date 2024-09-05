@@ -41,7 +41,7 @@ function About() {
 							</p>
 						</div>
 					</div>
-					<p className="text-center mt-[50px] text-lg mb-[50px]">
+					<p className="text-center mt-[15px] mb-[15px] sm:mt-[50px] text-lg sm:mb-[50px]">
 						welcome to my corner of the web! <br /> I&apos;m all about keeping
 						things simple and clean, whether it&apos;s in design, code, or
 						everyday life. I love taking on new challenges and exploring the

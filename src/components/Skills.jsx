@@ -16,7 +16,7 @@ const skills = {
 function Skills() {
 	return (
 		<Section sectionText="Explore my" sectionTitle="Skills" id="skills">
-			<div className=" lg:h-[88vh] h-auto p-10 block lg:flex justify-around items-center">
+			<div className=" lg:h-[88vh] h-auto sm:p-10 p-5 block lg:flex justify-around items-center">
 				{/* Card goes here */}
 				<Card>
 					<h3 className="text-2xl font-semibold text-center">Front-end</h3>

@@ -34,8 +34,8 @@ const projects = [
 function Projects() {
 	return (
 		<Section sectionText="Browse my" sectionTitle="Projects" id="projects">
-			<div className="flex flex-col lg:h-[88vh] justify-between p-10">
-				<div className="h-auto p-10 block lg:flex justify-around items-center gap-10">
+			<div className="flex flex-col lg:h-[88vh] justify-between sm:p-10 p-5">
+				<div className="h-auto  block lg:flex justify-around items-center gap-10">
 					{projects.map((project, index) => (
 						<Card key={index}>
 							<h3 className="text-2xl font-semibold text-center">
