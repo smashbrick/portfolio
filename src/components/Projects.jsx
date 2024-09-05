@@ -9,7 +9,7 @@ const projects = [
 			"A web application built with JavaScript, HTML, and CSS, showcasing interactive features and responsive design.",
 		live: "https://yahoo.com",
 		github: "https://github.com/smashbrick/to-do",
-		languageIcons: ["public/react.png", "public/js.png", "public/golang.png"],
+		languageIcons: ["/react.png", "/js.png", "/golang.png"],
 	},
 	{
 		name: "Not-Tac-Toe",
@@ -18,11 +18,7 @@ const projects = [
 			"A dynamic React application utilizing TypeScript for type safety and TailwindCSS for modern styling and layout.",
 		live: "https://youtube.com",
 		github: "https://github.com/smashbrick/random-background-generator",
-		languageIcons: [
-			"public/react.png",
-			"public/sass.png",
-			"public/typescript.png",
-		],
+		languageIcons: ["/react.png", "/sass.png", "/typescript.png"],
 	},
 	{
 		name: "Testing-Tac-Toe",
@@ -31,11 +27,7 @@ const projects = [
 			"A server-side application using Node.js and Express for building RESTful APIs, with MongoDB for data storage.",
 		live: "https://google.com",
 		github: "https://github.com/smashbrick/weather-app",
-		languageIcons: [
-			"public/react.png",
-			"public/typescript.png",
-			"public/sass.png",
-		],
+		languageIcons: ["/react.png", "/typescript.png", "/sass.png"],
 	},
 ];
 
@@ -67,7 +59,7 @@ function Projects() {
 									target="_blank"
 									className="absolute w-[2rem] bottom-[-5%]"
 								>
-									<img src="public/link.svg" alt="Website icon" />
+									<img src="/link.svg" alt="Website icon" />
 								</a>
 								<a
 									href={project.github}
@@ -76,7 +68,7 @@ function Projects() {
 									className="absolute w-[3rem] bottom-[-5%] right-0"
 								>
 									<img
-										src="public/github.png"
+										src="/github.png"
 										alt="GitHub icon"
 										className="h-[35px]"
 									/>

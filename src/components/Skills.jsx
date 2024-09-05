@@ -28,7 +28,7 @@ function Skills() {
 									className="flex gap-4 hover:text-secondaryBlack"
 								>
 									<img
-										src="public/checkmark.png"
+										src="/checkmark.png"
 										alt="Checkmark"
 										className="h-[2rem]"
 									/>
@@ -37,7 +37,7 @@ function Skills() {
 							))}
 						</ol>
 						<img
-							src="public/duck.png"
+							src="/duck.png"
 							alt="Duck icon"
 							className="absolute w-[3rem] bottom-[-5%]"
 						/>
@@ -53,7 +53,7 @@ function Skills() {
 									className="flex gap-4 hover:text-secondaryBlack"
 								>
 									<img
-										src="public/checkmark.png"
+										src="/checkmark.png"
 										alt="Checkmark"
 										className="w-[2rem] "
 									/>
@@ -62,7 +62,7 @@ function Skills() {
 							))}
 						</ol>
 						<img
-							src="public/cat.png"
+							src="/cat.png"
 							alt="cat icon"
 							className="absolute w-[4rem] bottom-[-5%]"
 						/>
@@ -78,7 +78,7 @@ function Skills() {
 									className="flex gap-4  hover:text-secondaryBlack"
 								>
 									<img
-										src="public/checkmark.png"
+										src="checkmark.png"
 										alt="Checkmark"
 										className="w-[2rem]"
 									/>

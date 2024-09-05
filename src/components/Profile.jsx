@@ -2,9 +2,9 @@ function Profile() {
 	return (
 		<main className="block md:flex items-center justify-center gap-20 md:h-[88vh] h-[94vh] p-10">
 			<div className="sm:w-[400px] w-[300px] m-auto md:m-0 avatar-class relative">
-				<img src="public/avatar.png" alt="Avatar image of author" />
+				<img src="/avatar.png" alt="Avatar image of author" />
 				<div className="absolute z-[-1] top-[10%]">
-					<img src="public/blob.gif" alt="Just a blob icon" />
+					<img src="/blob.gif" alt="Just a blob icon" />
 				</div>
 			</div>
 			<div className="text-center flex flex-col gap-4 mt-[60px]">
