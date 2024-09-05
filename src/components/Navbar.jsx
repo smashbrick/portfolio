@@ -17,6 +17,7 @@ function Navbar() {
 				className="
       hidden
       md:flex 
+			sticky
       justify-center
       p-5
       text-2xl
@@ -26,17 +27,14 @@ function Navbar() {
       "
 			>
 				<nav className="flex gap-20">
-					<a className="nav-links" href="#about">
-						About
-					</a>
 					<a className="nav-links" href="#skills">
 						Skills
 					</a>
+					<a className="nav-links" href="#about">
+						About
+					</a>
 					<a className="nav-links" href="#projects">
 						Projects
-					</a>
-					<a className="nav-links" href="#contact">
-						Contact
 					</a>
 				</nav>
 			</header>
@@ -63,10 +61,9 @@ function Navbar() {
 					}`}
 				>
 					<nav className="flex flex-col gap-4">
-						<a href="#about">About</a>
 						<a href="#skills">Skills</a>
+						<a href="#about">About</a>
 						<a href="#projects">Projects</a>
-						<a href="#contact">Contact</a>
 					</nav>
 				</div>
 			</header>

@@ -14,7 +14,7 @@ function Section(props) {
 					{sectionText}
 				</p>
 				<h1
-					className="text-3xl md:text-5xl font-bold"
+					className="text-3xl md:text-4xl font-bold"
 					style={{ letterSpacing: "1px" }}
 				>
 					{sectionTitle}

@@ -15,30 +15,35 @@ function Profile() {
 				<p className="font-semibold text-2xl text-secondaryBlack whitespace-nowrap">
 					Full-stack Developer
 				</p>
-				<div className="flex justify-center gap-4">
-					<button
-						className=" p-4 rounded-[30px] text-1xl border-2 border-black
-            font-semibold 
-						btn-download
-
-          "
+				<div className="flex justify-center gap-4 py-0 px-5">
+					<a
+						href=""
+						className="p-4 rounded-[30px] text-1xl border-2 font-semibold flex-1 relative  border-black animated-black  overflow-hidden"
 					>
-						Download CV
-					</button>
-					<button
-						className=" p-4 rounded-[30px] text-1xl border-2 border-black font-semibold  bg-black
-            text-white btn-contact"
+						Resume
+					</a>
+					<a
+						href="mailto:smashbrick@yahoo.com"
+						className="p-4 rounded-[30px] text-1xl border-2 font-semibold flex-1 relative  border-black bg-black text-white  animated-white overflow-hidden "
 					>
-						Contact me
-					</button>
+						Contact
+					</a>
 				</div>
 				<div className="flex justify-center gap-8">
-					<button>
+					<a
+						href="https://github.com/smashbrick"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<img src="src/assets/github.png" alt="" className="h-[35px]" />
-					</button>
-					<button>
+					</a>
+					<a
+						href="https://www.linkedin.com/in/smashbrick/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<img src="src/assets/linkedin.png" alt="" className="h-[35px]" />
-					</button>
+					</a>
 				</div>
 			</div>
 		</main>

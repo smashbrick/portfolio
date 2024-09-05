@@ -57,15 +57,3 @@ function About() {
 }
 
 export default About;
-
-// When
-// 						I&apos;m not buried in code, you&apos;ll find me unwinding with a
-// 						good video game, trekking through the great outdoors, casting a line
-// 						for some fishing, or cruising on my bike looking for my next
-// 						adventure. I believe in constant growth and am always curious to
-// 						pick up new skills or hobbies.
-
-// Right now, I&apos;m
-// diving into Golang, learning how to work some backend magic. So,
-// stick around and explore. Let&apos;s see where this journey takes
-// us!
