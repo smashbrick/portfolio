@@ -25,9 +25,9 @@ function Skills() {
 							{skills.Frontend.map((skill, index) => (
 								<li key={index} className="flex gap-4 ">
 									<img
-										src="/checkmark.png"
+										src="/arrow-right-solid.svg"
 										alt="Checkmark"
-										className="h-[2rem]"
+										className="h-[1rem]"
 									/>
 									{skill}
 								</li>
@@ -47,9 +47,9 @@ function Skills() {
 							{skills.Backend.map((skill, index) => (
 								<li key={index} className="flex gap-4 ">
 									<img
-										src="/checkmark.png"
+										src="/arrow-right-solid.svg"
 										alt="Checkmark"
-										className="w-[2rem] "
+										className="h-[1rem]"
 									/>
 									{skill}
 								</li>
@@ -69,9 +69,9 @@ function Skills() {
 							{skills.Tools.map((skill, index) => (
 								<li key={index} className="flex gap-4 ">
 									<img
-										src="checkmark.png"
+										src="/arrow-right-solid.svg"
 										alt="Checkmark"
-										className="w-[2rem]"
+										className="h-[1rem]"
 									/>
 									{skill}
 								</li>
