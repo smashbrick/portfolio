@@ -3,7 +3,7 @@ import Section from "./Section";
 function About() {
 	return (
 		<Section sectionText="Get to know more" sectionTitle="About Me" id="about">
-			<div className="md:grid grid-cols-[1fr_2fr] items-center h-[88vh] p-10 block gap-5 ">
+			<div className="md:grid grid-cols-[1fr_2fr] items-center md:h-[88vh] h-auto p-10 block gap-5 ">
 				<div
 					className="sm:w-[350px] w-[300px] lg:w-[400px] m-auto  relative 
         avatar-class

@@ -1,6 +1,6 @@
 function Profile() {
 	return (
-		<main className="block md:flex items-center justify-center gap-20 md:h-[88vh] h-[94vh] p-10">
+		<main className="block md:flex items-center justify-center gap-20 md:h-[88vh] sm:h-[94vh] p-10">
 			<div className="sm:w-[400px] w-[300px] m-auto md:m-0 avatar-class relative">
 				<img src="/avatar.png" alt="Avatar image of author" />
 				<div className="absolute z-[-1] top-[10%]">
