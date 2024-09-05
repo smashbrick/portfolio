@@ -39,7 +39,7 @@ function About() {
 					</div>
 				</div>
 				<div className="lg:px-[50px]">
-					<div className="flex justify-center md:gap-50 gap-8 text-center mt-[40px] md:mt-0">
+					<div className="flex justify-center md:gap-50 gap-8 text-center mt-[40px] md:mt-0 md:px-12">
 						<InfoCard
 							icon={aboutData.experience.icon}
 							title={aboutData.experience.title}
