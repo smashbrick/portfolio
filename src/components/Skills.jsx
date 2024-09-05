@@ -10,7 +10,7 @@ const skills = {
 		"Tailwind",
 		"HTML/CSS",
 	],
-	Backend: ["Golang", "MongoDB", "Postgress", "Prisma"],
+	Backend: ["Golang", "MongoDB", "Postgres", "Prisma"],
 	Tools: ["Git & Github", "Postman", "Figma", "VsCode"],
 };
 function Skills() {
@@ -23,10 +23,7 @@ function Skills() {
 					<div className="relative">
 						<ol className="text-xl w-full h-full flex flex-col gap-4">
 							{skills.Frontend.map((skill, index) => (
-								<li
-									key={index}
-									className="flex gap-4 hover:text-secondaryBlack"
-								>
+								<li key={index} className="flex gap-4 ">
 									<img
 										src="/checkmark.png"
 										alt="Checkmark"
@@ -48,10 +45,7 @@ function Skills() {
 					<div className="relative">
 						<ol className="text-xl w-full h-full flex flex-col gap-4">
 							{skills.Backend.map((skill, index) => (
-								<li
-									key={index}
-									className="flex gap-4 hover:text-secondaryBlack"
-								>
+								<li key={index} className="flex gap-4 ">
 									<img
 										src="/checkmark.png"
 										alt="Checkmark"
@@ -73,10 +67,7 @@ function Skills() {
 					<div>
 						<ol className="text-xl w-full h-full flex flex-col gap-4">
 							{skills.Tools.map((skill, index) => (
-								<li
-									key={index}
-									className="flex gap-4  hover:text-secondaryBlack"
-								>
+								<li key={index} className="flex gap-4 ">
 									<img
 										src="checkmark.png"
 										alt="Checkmark"
