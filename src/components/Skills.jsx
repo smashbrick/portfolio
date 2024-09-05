@@ -23,7 +23,7 @@ function Skills() {
 					<div className="relative">
 						<ol className="text-xl w-full h-full flex flex-col gap-4">
 							{skills.Frontend.map((skill, index) => (
-								<li key={index} className="flex gap-4 ">
+								<li key={index} className="flex gap-4 items-center">
 									<img
 										src="/arrow-right-solid.svg"
 										alt="Checkmark"
@@ -43,9 +43,9 @@ function Skills() {
 				<Card>
 					<h3 className="text-2xl  font-semibold text-center">Back-end</h3>
 					<div className="relative">
-						<ol className="text-xl w-full h-full flex flex-col gap-4">
+						<ol className="text-xl w-full h-full flex flex-col gap-4 ">
 							{skills.Backend.map((skill, index) => (
-								<li key={index} className="flex gap-4 ">
+								<li key={index} className="flex gap-4 items-center">
 									<img
 										src="/arrow-right-solid.svg"
 										alt="Checkmark"
@@ -67,7 +67,7 @@ function Skills() {
 					<div>
 						<ol className="text-xl w-full h-full flex flex-col gap-4">
 							{skills.Tools.map((skill, index) => (
-								<li key={index} className="flex gap-4 ">
+								<li key={index} className="flex gap-4 items-center">
 									<img
 										src="/arrow-right-solid.svg"
 										alt="Checkmark"
