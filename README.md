@@ -1,8 +1,19 @@
-# React + Vite
+# Ankit H. Swaraj - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! You can visit it live at [ankithswaraj.com](https://ankithswaraj.com).
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio showcases my skills, experience, and projects. It reflects my passion for web development and my approach to designing clean, simple, and efficient user interfaces.
+
+## Features
+
+- **Responsive Design:** Optimized for all devices, from mobile to desktop.
+- **Skills Section:** Highlights my proficiency in front-end technologies.
+- **Experience & Education:** A brief overview of my professional experience and academic background.
+- **Projects:** A selection of my work demonstrating my capabilities with various technologies.
+- **Contact Information:** Easy ways to get in touch with me via social media or email.
+
+## Technologies Used
+
+- **Front-end:** HTML, CSS (Tailwind CSS), JavaScript, React
