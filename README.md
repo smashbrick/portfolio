@@ -1,4 +1,4 @@
-# Ankit H. Swaraj - Personal Portfolio
+# Ankith - Personal Portfolio
 
 Welcome to my personal portfolio! You can visit it live at [ankithswaraj.com](https://ankithswaraj.com).
 
@@ -16,4 +16,4 @@ This portfolio showcases my skills, experience, and projects. It reflects my pas
 
 ## Technologies Used
 
-- **Front-end:** HTML, CSS (Tailwind CSS), JavaScript, React
+- **Front-end:** HTML, CSS (TailwindCSS), JavaScript, React
