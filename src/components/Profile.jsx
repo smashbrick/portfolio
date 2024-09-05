@@ -35,14 +35,14 @@ function Profile() {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="public/github.png" alt="" className="h-[35px]" />
+						<img src="/github.png" alt="" className="h-[35px]" />
 					</a>
 					<a
 						href="https://www.linkedin.com/in/smashbrick/"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<img src="public/linkedin.png" alt="" className="h-[35px]" />
+						<img src="/linkedin.png" alt="" className="h-[35px]" />
 					</a>
 				</div>
 			</div>
