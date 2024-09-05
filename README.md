@@ -9,7 +9,7 @@ This portfolio showcases my skills, experience, and projects. It reflects my pas
 ## Features
 
 - **Responsive Design:** Optimized for all devices, from mobile to desktop.
-- **Skills Section:** Highlights my proficiency in front-end technologies.
+- **Skills Section:** Highlights my proficiency in front-end & backend technologies.
 - **Experience & Education:** A brief overview of my professional experience and academic background.
 - **Projects:** A selection of my work demonstrating my capabilities with various technologies.
 - **Contact Information:** Easy ways to get in touch with me via social media or email.
