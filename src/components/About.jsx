@@ -19,7 +19,7 @@ const aboutData = {
 };
 
 const InfoCard = ({ icon, title, details, subtext }) => (
-	<div className="border border-black p-6 rounded-3xl flex-1 flex flex-col items-center">
+	<div className="shadow-dark p-6 rounded-3xl flex-1 flex flex-col items-center">
 		<img src={icon} alt={`${title} icon`} className="w-[2rem] mb-4" />
 		<h3 className="text-2xl font-bold">{title}</h3>
 		<p className="text-lg text-center">
