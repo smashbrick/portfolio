@@ -5,7 +5,7 @@ function Section(props) {
 	const { sectionText, sectionTitle, children, id } = props;
 	return (
 		<section id={id}>
-			<div className="h-[12vh] flex flex-col items-center justify-center  gap-2">
+			<div className="h-[12vh] flex flex-col items-center justify-center shadow-top gap-2">
 				<p
 					className="
 				text-lg
