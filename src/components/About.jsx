@@ -30,9 +30,9 @@ const InfoCard = ({ icon, title, details, subtext }) => (
 
 function About() {
 	return (
-		<Section sectionText="Get to know more" sectionTitle="About Me" id="about">
-			<div className="md:grid grid-cols-[1fr_2fr] items-center md:h-[88vh] h-auto p-10 block gap-5">
-				<div className="sm:w-[350px] w-[300px] lg:w-[400px] m-auto relative avatar-class">
+		<Section sectionTitle="About Me" id="about">
+			<div className="lg:grid  grid-cols-[1fr_2fr] items-center md:h-[88vh] h-auto p-10 block gap-5 ">
+				<div className="sm:w-[350px] w-[300px] lg:w-[400px] m-auto lg:m-0 relative avatar-class ">
 					<img src="/avatartion-about.png" alt="Avatar image of author" />
 					<div className="absolute z-[-1] top-[10%]">
 						<img src="/blob.gif" alt="Just a blob icon" />

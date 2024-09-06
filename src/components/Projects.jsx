@@ -33,7 +33,7 @@ const projects = [
 
 function Projects() {
 	return (
-		<Section sectionText="Browse my" sectionTitle="Projects" id="projects">
+		<Section sectionTitle="Projects" id="projects">
 			<div className="flex flex-col lg:h-[88vh] justify-between sm:p-10 p-5">
 				<div className="h-auto  block lg:flex justify-around items-center gap-10">
 					{projects.map((project, index) => (

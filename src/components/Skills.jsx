@@ -44,7 +44,7 @@ const SkillList = ({ category, items, iconSrc }) => (
 
 function Skills() {
 	return (
-		<Section sectionText="Explore my" sectionTitle="Skills" id="skills">
+		<Section sectionTitle="Skills" id="skills">
 			<div className="lg:h-[88vh] h-auto sm:p-10 p-5 block lg:flex justify-around items-center">
 				<SkillList
 					category="Front-end"

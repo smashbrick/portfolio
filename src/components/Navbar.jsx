@@ -18,11 +18,17 @@ function Navbar() {
       hidden
       md:flex 
 			sticky
+			top-0
       justify-center
       p-5
       text-2xl
+shadow-light
+			bg-white
+			z-20
 			md:h-[12vh]
 			h-[6]
+
+
 			items-center
       "
 			>
@@ -39,7 +45,10 @@ function Navbar() {
 				</nav>
 			</header>
 			{/* //Mobile version */}
-			<header className="md:hidden shadow-light p-3 min-h-[6vh] ">
+			<header
+				className="md:hidden shadow-light p-3 min-h-[6vh] z-20 bg-white	sticky
+			top-0 "
+			>
 				<div
 					className="
 						cursor-pointer flex justify-end "
@@ -61,9 +70,15 @@ function Navbar() {
 					}`}
 				>
 					<nav className="flex flex-col gap-4">
-						<a href="#skills">Skills</a>
-						<a href="#about">About</a>
-						<a href="#projects">Projects</a>
+						<a href="#skills" onClick={() => toggleMenu()}>
+							Skills
+						</a>
+						<a href="#about" onClick={() => toggleMenu()}>
+							About
+						</a>
+						<a href="#projects " onClick={() => toggleMenu()}>
+							Projects
+						</a>
 					</nav>
 				</div>
 			</header>

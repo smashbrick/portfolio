@@ -46,6 +46,7 @@ a {
 .nav-links:hover::after,
 .nav-links:focus::after {
 	background-color: theme("colors.primaryBlue");
+
 	width: 100%;
 }
 
@@ -59,7 +60,9 @@ a {
 	position: absolute;
 	width: 50%;
 	height: 180%;
-	background-color: black;
+	background-color: theme("colors.primaryBlue");
+
+	/* //Just changed */
 	transform: rotate(45deg);
 }
 
@@ -146,4 +149,18 @@ a {
 
 .animated-white:active {
 	transform: translateY(2px); /* Moves the button down by 2px */
+}
+
+#about,
+#skills,
+#projects {
+	scroll-margin-top: 20vh;
+}
+
+@media (min-width: 768px) {
+	#about,
+	#skills,
+	#projects {
+		scroll-margin-top: 12vh;
+	}
 }
